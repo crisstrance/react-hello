@@ -9,7 +9,7 @@ import wcs from "../../img/wcs.png";
 const Home = () => {
 	return (
 		<div className="text-center">
-			<h1 className="text-center mt-5" >Hello Geeks!</h1>
+			<h1 className="text-center mt-2 text-light" >Hello Geeks!</h1>
 			<div className="d-flex justify-content-center">
 				<ImageGrid />
 				{/* Otras secciones de tu página */}
@@ -17,7 +17,7 @@ const Home = () => {
 			<a href="#" className="btn btn-success">
 				If you see this green button... bootstrap is working...
 			</a>
-			<p>
+			<p className="text-light">
 				Made by{" "}
 				<a href="#">Cristian Aravena</a>!
 			</p>
